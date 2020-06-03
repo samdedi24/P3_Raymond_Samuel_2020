@@ -1,0 +1,279 @@
+@font-face {
+  font-family: "black_jackregular";
+  src: url("fonts/blackjack-webfont.eot");
+  src: url("fonts/blackjack-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/blackjack-webfont.woff2") format("woff2"), url("fonts/blackjack-webfont.woff") format("woff"), url("fonts/blackjack-webfont.ttf") format("truetype"), url("fonts/blackjack-webfont.svg#black_jackregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "dustismo_bold_italic";
+  src: url("fonts/dustismo_bold_italic-webfont.eot");
+  src: url("fonts/dustismo_bold_italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/dustismo_bold_italic-webfont.woff2") format("woff2"), url("fonts/dustismo_bold_italic-webfont.woff") format("woff"), url("fonts/dustismo_bold_italic-webfont.ttf") format("truetype"), url("fonts/dustismo_bold_italic-webfont.svg#dustismo_bold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Croissant One Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Croissant One Regular"), url("fonts/CroissantOne-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "nimbus_roman_no9_lbold";
+  src: url("fonts/NimbusRomNo9L-Med-webfont.eot");
+  src: url("fonts/NimbusRomNo9L-Med-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/NimbusRomNo9L-Med-webfont.woff2") format("woff2"), url("fonts/NimbusRomNo9L-Med-webfont.woff") format("woff"), url("fonts/NimbusRomNo9L-Med-webfont.ttf") format("truetype"), url("fonts/NimbusRomNo9L-Med-webfont.svg#nimbus_roman_no9_lbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "acmeregular";
+  src: url("fonts/Acme-Regular-webfont.eot");
+  src: url("fonts/Acme-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Acme-Regular-webfont.woff2") format("woff2"), url("fonts/Acme-Regular-webfont.woff") format("woff"), url("fonts/Acme-Regular-webfont.ttf") format("truetype"), url("fonts/Acme-Regular-webfont.svg#acmeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KaushanScript-Regular";
+  src: url("fonts/KaushanScript-Regular.eot");
+  src: url("fonts/AKaushanScript-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/KaushanScript-Regular.woff2") format("woff2"), url("fonts/KaushanScript-Regular.woff") format("woff"), url("fonts/KaushanScript-Regular.ttf") format("truetype"), url("fonts/KaushanScript-Regular.svg#acmeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AlexBrush-Regular";
+  src: url("fonts/AlexBrush-Regular.eot");
+  src: url("fonts/AlexBrush-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/AlexBrush-Regular.woff2") format("woff2"), url("fonts/AlexBrush-Regular.woff") format("woff"), url("fonts/AlexBrush-Regular.ttf") format("truetype"), url("fonts/AlexBrush-Regular.svg#acmeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@keyframes wiggle {
+  10%, 90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(3px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-6px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(6px, 0, 0);
+  }
+}
+html, body {
+  height: 100%;
+}
+
+.page {
+  min-height: 100%;
+}
+
+header {
+  background-color: #579C87;
+  color: #FDCB46;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.menu_sec {
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-around;
+  padding-top: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-bottom: 5%;
+}
+
+.menu1 {
+  background-color: #FCDFDB;
+  display: flex;
+  height: 700px;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F1F1F1;
+  box-shadow: 0px 0px 5px 5px #EDEDED;
+}
+.menu1 h2 {
+  font-size: 35px;
+  font-family: "black_jackregular";
+  color: #3C1218;
+}
+.menu1 h3 {
+  font-size: 65px;
+  padding-left: 40px;
+  font-family: "dustismo_bold_italic";
+  color: #3C1218;
+}
+.menu1 .fa-music {
+  padding-left: 90px;
+  font-size: 50px;
+  background: -webkit-linear-gradient(bottom left, #F15861, #F78F6A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu1 a {
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+.menu1 a:hover {
+  transform: scale(1.15);
+  opacity: 65%;
+}
+
+.menu2 {
+  background-color: #FFF5FE;
+  display: flex;
+  height: 700px;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F1F1F1;
+  box-shadow: 0px 0px 5px 5px #EDEDED;
+}
+.menu2 h2 {
+  font-size: 30px;
+  font-family: "Croissant One Regular";
+  background: -webkit-linear-gradient(bottom right, #905BFD, #CE7D4E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu2 h3 {
+  font-size: 65px;
+  padding-left: 90px;
+  font-family: "nimbus_roman_no9_lbold";
+  color: #C77412;
+}
+.menu2 a {
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+.menu2 a:hover {
+  transform: scale(1.15);
+  opacity: 65%;
+}
+
+.menu3 {
+  background-color: #F9F9F9;
+  display: flex;
+  height: 700px;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F1F1F1;
+  box-shadow: 0px 0px 5px 5px #EDEDED;
+}
+.menu3 h2 {
+  font-size: 50px;
+  font-family: "AlexBrush-Regular";
+  background: -webkit-linear-gradient(left, #0431DF, #0887FB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu3 h3 {
+  font-size: 55px;
+  padding-left: 100px;
+  font-family: "acmeregular";
+  color: #0887FB;
+}
+.menu3 a {
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+.menu3 a:hover {
+  transform: scale(1.15);
+  opacity: 65%;
+}
+
+.menu4 {
+  background-color: #FDFFFD;
+  display: flex;
+  height: 700px;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F1F1F1;
+  box-shadow: 0px 0px 5px 5px #EDEDED;
+}
+.menu4 h2 {
+  font-size: 45px;
+  font-family: "KaushanScript-Regular";
+  background: -webkit-linear-gradient(left, #4C9F42, #BFFF7E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu4 h3 {
+  font-size: 55px;
+  padding-left: 95px;
+  font-family: "acmeregular";
+  color: #72BF56;
+}
+.menu4 a {
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+.menu4 a:hover {
+  transform: scale(1.15);
+  opacity: 65%;
+}
+
+button {
+  width: 35%;
+  height: 90px;
+  background-color: #549c84;
+  color: #fdcb46;
+  font-size: 50px;
+  border-radius: 21px;
+  border: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3%;
+}
+
+footer {
+  background-color: #579C87;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  border-top: 2px solid #a1c181;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer a {
+  color: #FDCB46;
+  padding-right: 70px;
+}
+footer a:hover {
+  animation: wiggle 2.5s infinite;
+}
+
+/*# sourceMappingURL=style.css.map */
