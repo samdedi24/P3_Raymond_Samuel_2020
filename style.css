@@ -317,7 +317,7 @@ footer a:hover {
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 90px;
+  padding-top: 110px;
 }
 .sec-one h2 {
   font-family: "black_jackregular";
@@ -329,11 +329,14 @@ footer a:hover {
   width: 80%;
   text-align: justify;
   justify-content: center;
+  font-family: "perspective_sansitalic";
+  font-size: 15px;
 }
 .sec-one .price_end {
   display: flex;
   float: right;
   width: auto;
+  font-size: 21px;
 }
 
 .fa-music {
@@ -368,12 +371,21 @@ footer a:hover {
   justify-content: space-around;
 }
 .headlines img {
-  display: block;
+  display: flex;
   padding-bottom: 10px;
 }
 .headlines h3 {
-  font-size: 25px;
+  font-size: 28px;
   font-family: "perspective_sansitalic";
+}
+.headlines h3 a {
+  color: inherit;
+  background: linear-gradient(to top, black 0%, black 4px, transparent 5px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s;
+}
+.headlines h3 a:hover {
+  background-size: 100% 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
