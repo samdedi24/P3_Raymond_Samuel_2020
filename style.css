@@ -307,6 +307,8 @@ footer a:hover {
 
 .sec-one {
   background-color: #FCDFDB;
+  border: 1px solid #F1F1F1;
+  box-shadow: 0px 0px 5px 5px #EDEDED;
   display: flex;
   flex-direction: column;
   width: 55%;
@@ -317,7 +319,7 @@ footer a:hover {
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 110px;
+  padding-top: 130px;
 }
 .sec-one h2 {
   font-family: "black_jackregular";
@@ -367,11 +369,10 @@ footer a:hover {
 .headlines {
   display: flex;
   align-items: center;
-  width: 89%;
+  width: 87%;
   justify-content: space-around;
 }
 .headlines img {
-  display: flex;
   padding-bottom: 10px;
 }
 .headlines h3 {
@@ -385,6 +386,111 @@ footer a:hover {
   transition: background-size 0.5s;
 }
 .headlines h3 a:hover {
+  background-size: 100% 100%;
+}
+
+.sec-two {
+  background-color: #FFF5FE;
+  border: 1px solid #F1F1F1;
+  box-shadow: 0px 0px 5px 5px #EDEDED;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: 1200px;
+  align-items: center;
+  margin-bottom: 150px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+.sec-two h2 {
+  font-size: 30px;
+  font-family: "Croissant One Regular";
+  background: -webkit-linear-gradient(bottom right, #905BFD, #CE7D4E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sec-two .text-one {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  text-align: justify;
+  justify-content: center;
+  font-family: "perspective_sansitalic";
+  font-size: 15px;
+  padding-top: 20px;
+}
+.sec-two .price_end {
+  display: flex;
+  float: right;
+  width: auto;
+  font-size: 21px;
+}
+.sec-two .headlines {
+  display: flex;
+  align-items: center;
+  width: 87%;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+.sec-two .headlines img {
+  width: 30%;
+  padding-top: 10px;
+}
+.sec-two .headlines h3 {
+  font-size: 20px;
+  font-family: "perspective_sansitalic";
+}
+.sec-two .headlines h3 a {
+  color: inherit;
+  background: linear-gradient(to top, #C67412 0%, #C67412 2px, transparent 5px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s;
+}
+.sec-two .headlines h3 a:hover {
+  background-size: 100% 100%;
+}
+
+.color1 {
+  color: #C67412;
+}
+
+.color2 {
+  color: #A56799;
+}
+
+.color3 {
+  color: #6E4CCC;
+}
+
+#linecolorone a {
+  color: #C67412;
+  background: linear-gradient(to top, #C67412 0%, #C67412 2px, transparent 5px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s;
+}
+#linecolorone a:hover {
+  background-size: 100% 100%;
+}
+
+#linecolortwo a {
+  color: #A56799;
+  background: linear-gradient(to top, #A56799 0%, #A56799 2px, transparent 5px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s;
+}
+#linecolortwo a:hover {
+  background-size: 100% 100%;
+}
+
+#linecolorthree a {
+  color: #6E4CCC;
+  background: linear-gradient(to top, #6E4CCC 0%, #6E4CCC 2px, transparent 5px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s;
+}
+#linecolorthree a:hover {
   background-size: 100% 100%;
 }
 
