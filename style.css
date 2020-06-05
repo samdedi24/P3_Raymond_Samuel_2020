@@ -84,6 +84,17 @@
     content: "";
   }
 }
+@keyframes PtsSuspensions {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 html, body {
   height: 100%;
 }
@@ -239,17 +250,23 @@ button {
   border-radius: 21px;
   border: none;
 }
+button span {
+  animation: PtsSuspensions;
+  animation-duration: 500ms;
+  -moz-animation-iteration-count: infinite;
+}
+button span:nth-child(2) {
+  animation-delay: 300ms;
+}
+button span:nth-child(3) {
+  animation-delay: 600ms;
+}
 
 .loading {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 3%;
-}
-.loading :after {
-  display: inline-block;
-  animation: dotty steps(1, end) 1s infinite;
-  content: "";
 }
 
 footer {
