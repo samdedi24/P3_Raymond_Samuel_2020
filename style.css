@@ -310,7 +310,7 @@ footer a:hover {
 .sec-one .text-one {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 83%;
   text-align: justify;
   justify-content: center;
   font-family: "perspective_sansitalic";
@@ -327,10 +327,11 @@ footer a:hover {
   display: flex;
   align-items: center;
   width: 87%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .headlines img {
   padding-bottom: 10px;
+  max-width: 38%;
 }
 .headlines h3 {
   font-size: 28px;
@@ -390,11 +391,11 @@ footer a:hover {
   display: flex;
   align-items: center;
   width: 87%;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 70px;
 }
 .sec-two .headlines img {
-  width: 30%;
+  max-width: 35%;
   padding-top: 10px;
 }
 .sec-two .headlines h3 {
@@ -485,7 +486,7 @@ footer a:hover {
   padding-top: 90px;
 }
 .sec-three h2 {
-  font-size: 75px;
+  font-size: 80px;
   font-family: "AlexBrush-Regular";
   background: -webkit-linear-gradient(left, #0431DF, #0887FB);
   -webkit-background-clip: text;
@@ -495,14 +496,14 @@ footer a:hover {
   display: flex;
   align-items: center;
   width: 87%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .sec-three img {
-  width: 30%;
+  max-width: 30%;
   padding-top: 10px;
 }
 .sec-three h3 {
-  font-size: 28px;
+  font-size: 25px;
   font-family: "perspective_sansitalic";
 }
 .sec-three h3 a {
@@ -525,6 +526,69 @@ footer a:hover {
   padding-top: 20px;
 }
 .sec-three .price_end {
+  display: flex;
+  float: right;
+  width: auto;
+  font-size: 21px;
+}
+
+.sec-four {
+  background-color: #FDFFFD;
+  border: 1px solid #F1F1F1;
+  box-shadow: 0px 0px 5px 5px #EDEDED;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: 1200px;
+  align-items: center;
+  margin-bottom: 150px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 90px;
+}
+.sec-four h2 {
+  font-size: 65px;
+  font-family: "KaushanScript-Regular";
+  background: -webkit-linear-gradient(left, #4C9F42, #BFFF7E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sec-four .headlines {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.sec-four img {
+  max-width: 38%;
+  padding-top: 10px;
+}
+.sec-four h3 {
+  font-size: 20px;
+  font-family: "perspective_sansitalic";
+}
+.sec-four h3 a {
+  color: inherit;
+  background: linear-gradient(to top, black 0%, black 2px, transparent 4px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s;
+}
+.sec-four h3 a:hover {
+  background-size: 100% 100%;
+}
+.sec-four .text-one {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: justify;
+  justify-content: center;
+  font-family: "perspective_sansitalic";
+  font-size: 15px;
+  padding-top: 30px;
+}
+.sec-four .price_end {
   display: flex;
   float: right;
   width: auto;
