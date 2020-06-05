@@ -298,7 +298,8 @@ button
         span{
             animation: PtsSuspensions;
             animation-duration: 500ms;
-            -moz-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-iteration-count: infinite;
         }
         span:nth-child(2) {
             animation-delay: 300ms;
