@@ -100,18 +100,8 @@ header {
   justify-content: center;
   align-items: center;
 }
-
-h1 {
+header h1 {
   font-size: 70px;
-}
-
-a {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
 }
 
 .menu_sec {
@@ -122,6 +112,21 @@ a {
   margin-right: 15%;
   margin-left: 15%;
   padding-bottom: 5%;
+}
+.menu_sec a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+.menu_sec a:hover {
+  transform: scale(1.15);
+  opacity: 65%;
 }
 
 .menu1 {
@@ -152,15 +157,6 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.menu1 a {
-  transform: scale(1);
-  transition-property: transform;
-  transition-duration: 500ms;
-}
-.menu1 a:hover {
-  transform: scale(1.15);
-  opacity: 65%;
-}
 
 .menu2 {
   background-color: #FFF5FE;
@@ -184,15 +180,6 @@ a {
   padding-left: 90px;
   font-family: "nimbus_roman_no9_lbold";
   color: #C77412;
-}
-.menu2 a {
-  transform: scale(1);
-  transition-property: transform;
-  transition-duration: 500ms;
-}
-.menu2 a:hover {
-  transform: scale(1.15);
-  opacity: 65%;
 }
 
 .menu3 {
@@ -218,15 +205,6 @@ a {
   font-family: "acmeregular";
   color: #0887FB;
 }
-.menu3 a {
-  transform: scale(1);
-  transition-property: transform;
-  transition-duration: 500ms;
-}
-.menu3 a:hover {
-  transform: scale(1.15);
-  opacity: 65%;
-}
 
 .menu4 {
   background-color: #FDFFFD;
@@ -250,15 +228,6 @@ a {
   padding-left: 95px;
   font-family: "acmeregular";
   color: #72BF56;
-}
-.menu4 a {
-  transform: scale(1);
-  transition-property: transform;
-  transition-duration: 500ms;
-}
-.menu4 a:hover {
-  transform: scale(1.15);
-  opacity: 65%;
 }
 
 button {
@@ -298,8 +267,14 @@ footer {
   align-items: center;
 }
 footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  text-decoration: none;
   color: #FDCB46;
   padding-right: 70px;
+  padding-left: 70px;
 }
 footer a:hover {
   animation: wiggle 2.5s infinite;
@@ -321,6 +296,13 @@ footer a:hover {
   margin-right: auto;
   padding-top: 130px;
 }
+.sec-one .fa-music {
+  padding-left: 100px;
+  font-size: 50px;
+  background: -webkit-linear-gradient(bottom left, #F15861, #F78F6A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .sec-one h2 {
   font-family: "black_jackregular";
   font-size: 40px;
@@ -341,12 +323,28 @@ footer a:hover {
   font-size: 21px;
 }
 
-.fa-music {
-  padding-left: 100px;
-  font-size: 50px;
-  background: -webkit-linear-gradient(bottom left, #F15861, #F78F6A);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.headlines {
+  display: flex;
+  align-items: center;
+  width: 87%;
+  justify-content: space-around;
+}
+.headlines img {
+  padding-bottom: 10px;
+}
+.headlines h3 {
+  font-size: 28px;
+  font-family: "perspective_sansitalic";
+}
+.headlines h3 a {
+  color: inherit;
+  text-decoration: none;
+  background: linear-gradient(to top, black 0%, black 4px, transparent 5px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s;
+}
+.headlines h3 a:hover {
+  background-size: 100% 100%;
 }
 
 .foothead {
@@ -364,29 +362,6 @@ footer a:hover {
   padding-left: 15px;
   font-family: "black_jackregular";
   font-size: 40px;
-}
-
-.headlines {
-  display: flex;
-  align-items: center;
-  width: 87%;
-  justify-content: space-around;
-}
-.headlines img {
-  padding-bottom: 10px;
-}
-.headlines h3 {
-  font-size: 28px;
-  font-family: "perspective_sansitalic";
-}
-.headlines h3 a {
-  color: inherit;
-  background: linear-gradient(to top, black 0%, black 4px, transparent 5px) no-repeat;
-  background-size: 0 100%;
-  transition: background-size 0.5s;
-}
-.headlines h3 a:hover {
-  background-size: 100% 100%;
 }
 
 .sec-two {
@@ -411,22 +386,6 @@ footer a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.sec-two .text-one {
-  display: flex;
-  flex-direction: column;
-  width: 65%;
-  text-align: justify;
-  justify-content: center;
-  font-family: "perspective_sansitalic";
-  font-size: 15px;
-  padding-top: 20px;
-}
-.sec-two .price_end {
-  display: flex;
-  float: right;
-  width: auto;
-  font-size: 21px;
-}
 .sec-two .headlines {
   display: flex;
   align-items: center;
@@ -450,6 +409,22 @@ footer a:hover {
 }
 .sec-two .headlines h3 a:hover {
   background-size: 100% 100%;
+}
+.sec-two .text-one {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  text-align: justify;
+  justify-content: center;
+  font-family: "perspective_sansitalic";
+  font-size: 15px;
+  padding-top: 20px;
+}
+.sec-two .price_end {
+  display: flex;
+  float: right;
+  width: auto;
+  font-size: 21px;
 }
 
 .color1 {
@@ -492,6 +467,68 @@ footer a:hover {
 }
 #linecolorthree a:hover {
   background-size: 100% 100%;
+}
+
+.sec-three {
+  background-color: #F9F9F9;
+  border: 1px solid #F1F1F1;
+  box-shadow: 0px 0px 5px 5px #EDEDED;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: 1200px;
+  align-items: center;
+  margin-bottom: 150px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 90px;
+}
+.sec-three h2 {
+  font-size: 75px;
+  font-family: "AlexBrush-Regular";
+  background: -webkit-linear-gradient(left, #0431DF, #0887FB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sec-three .headlines {
+  display: flex;
+  align-items: center;
+  width: 87%;
+  justify-content: space-around;
+}
+.sec-three img {
+  width: 30%;
+  padding-top: 10px;
+}
+.sec-three h3 {
+  font-size: 28px;
+  font-family: "perspective_sansitalic";
+}
+.sec-three h3 a {
+  color: inherit;
+  background: linear-gradient(to top, black 0%, black 2px, transparent 5px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s;
+}
+.sec-three h3 a:hover {
+  background-size: 100% 100%;
+}
+.sec-three .text-one {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  text-align: justify;
+  justify-content: center;
+  font-family: "perspective_sansitalic";
+  font-size: 15px;
+  padding-top: 20px;
+}
+.sec-three .price_end {
+  display: flex;
+  float: right;
+  width: auto;
+  font-size: 21px;
 }
 
 /*# sourceMappingURL=style.css.map */
