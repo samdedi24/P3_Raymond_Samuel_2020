@@ -595,4 +595,29 @@ footer a:hover {
   font-size: 21px;
 }
 
+.mention {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 1200px;
+  background-color: #c8ad7f;
+  border: 1px solid #F1F1F1;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+.mention h2 {
+  font-size: 50px;
+  text-align: center;
+}
+.mention h3 {
+  font-size: 30px;
+  padding-left: 15px;
+}
+.mention .text_mention {
+  font-size: 15px;
+  padding-left: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
