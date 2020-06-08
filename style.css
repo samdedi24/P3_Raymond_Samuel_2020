@@ -719,52 +719,70 @@ footer a:hover {
     height: auto;
   }
   .sec-one h3 {
-    font-size: 24px;
+    font-size: 34px;
     text-align: center;
   }
   .sec-one .text-one {
-    font-size: 22px;
+    font-size: 28px;
+  }
+  .sec-one .price_end {
+    font-size: 33px;
   }
 
   .sec-two {
     width: auto;
-    height: 1500px;
+    height: 1700px;
+  }
+  .sec-two img {
+    width: 30%;
   }
   .sec-two h3 {
-    font-size: 28px;
+    text-align: center;
+  }
+  .sec-two h3 a {
+    font-size: 30px;
   }
   .sec-two .text-one {
-    font-size: 23px;
+    font-size: 27px;
+  }
+  .sec-two .price_end {
+    font-size: 32px;
   }
 
   .sec-three {
     width: auto;
-    height: 1400px;
+    height: 1650px;
   }
   .sec-three h2 {
     text-align: center;
   }
   .sec-three h3 {
     text-align: center;
-    font-size: 26px;
+    font-size: 34px;
   }
   .sec-three .text-one {
-    font-size: 24px;
+    font-size: 27px;
+  }
+  .sec-three .price_end {
+    font-size: 34px;
   }
 
   .sec-four {
     width: auto;
-    height: 1300px;
+    height: 1900px;
   }
   .sec-four h2 {
     font-size: 55px;
   }
   .sec-four h3 {
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
   }
   .sec-four .text-one {
-    font-size: 22px;
+    font-size: 28px;
+  }
+  .sec-four .price_end {
+    font-size: 32px;
   }
 
   .mention {
