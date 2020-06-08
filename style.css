@@ -95,10 +95,6 @@
     opacity: 1;
   }
 }
-body {
-  height: 1700px;
-}
-
 .page {
   height: auto;
 }
