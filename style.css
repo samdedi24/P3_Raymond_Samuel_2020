@@ -148,13 +148,13 @@ header h1 {
 }
 .menu1 h2 {
   font-size: 35px;
-  font-family: "black_jackregular";
+  font-family: "black_jackregular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   color: #3C1218;
 }
 .menu1 h3 {
   font-size: 65px;
   padding-left: 40px;
-  font-family: "dustismo_bold_italic";
+  font-family: "dustismo_bold_italic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   color: #3C1218;
 }
 .menu1 .fa-music {
@@ -177,7 +177,7 @@ header h1 {
 }
 .menu2 h2 {
   font-size: 30px;
-  font-family: "Croissant One Regular";
+  font-family: "Croissant One Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(bottom right, #905BFD, #CE7D4E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -185,7 +185,7 @@ header h1 {
 .menu2 h3 {
   font-size: 65px;
   padding-left: 90px;
-  font-family: "nimbus_roman_no9_lbold";
+  font-family: "nimbus_roman_no9_lbold", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   color: #C77412;
 }
 
@@ -201,7 +201,7 @@ header h1 {
 }
 .menu3 h2 {
   font-size: 50px;
-  font-family: "AlexBrush-Regular";
+  font-family: "AlexBrush-Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(left, #0431DF, #0887FB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -209,7 +209,7 @@ header h1 {
 .menu3 h3 {
   font-size: 55px;
   padding-left: 100px;
-  font-family: "acmeregular";
+  font-family: "acmeregular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   color: #0887FB;
 }
 
@@ -225,7 +225,7 @@ header h1 {
 }
 .menu4 h2 {
   font-size: 45px;
-  font-family: "KaushanScript-Regular";
+  font-family: "KaushanScript-Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(left, #4C9F42, #BFFF7E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -233,7 +233,7 @@ header h1 {
 .menu4 h3 {
   font-size: 55px;
   padding-left: 95px;
-  font-family: "acmeregular";
+  font-family: "acmeregular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   color: #72BF56;
 }
 
@@ -327,7 +327,7 @@ footer a:hover {
   width: 83%;
   text-align: justify;
   justify-content: center;
-  font-family: "perspective_sansitalic";
+  font-family: "perspective_sansitalic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 15px;
 }
 .sec-one .price_end {
@@ -349,7 +349,7 @@ footer a:hover {
 }
 .headlines h3 {
   font-size: 28px;
-  font-family: "perspective_sansitalic";
+  font-family: "perspective_sansitalic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 .headlines h3 a {
   color: inherit;
@@ -375,7 +375,7 @@ footer a:hover {
 }
 .foothead h3 {
   padding-left: 15px;
-  font-family: "black_jackregular";
+  font-family: "black_jackregular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 40px;
 }
 
@@ -396,7 +396,7 @@ footer a:hover {
 }
 .sec-two h2 {
   font-size: 30px;
-  font-family: "Croissant One Regular";
+  font-family: "Croissant One Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(bottom right, #905BFD, #CE7D4E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -414,7 +414,7 @@ footer a:hover {
 }
 .sec-two .headlines h3 {
   font-size: 20px;
-  font-family: "perspective_sansitalic";
+  font-family: "perspective_sansitalic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 .sec-two .headlines h3 a {
   color: inherit;
@@ -431,7 +431,7 @@ footer a:hover {
   width: 65%;
   text-align: justify;
   justify-content: center;
-  font-family: "perspective_sansitalic";
+  font-family: "perspective_sansitalic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 15px;
   padding-top: 20px;
 }
@@ -501,7 +501,7 @@ footer a:hover {
 }
 .sec-three h2 {
   font-size: 80px;
-  font-family: "AlexBrush-Regular";
+  font-family: "AlexBrush-Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(left, #0431DF, #0887FB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -518,7 +518,7 @@ footer a:hover {
 }
 .sec-three h3 {
   font-size: 25px;
-  font-family: "perspective_sansitalic";
+  font-family: "perspective_sansitalic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 .sec-three h3 a {
   color: inherit;
@@ -535,7 +535,7 @@ footer a:hover {
   width: 65%;
   text-align: justify;
   justify-content: center;
-  font-family: "perspective_sansitalic";
+  font-family: "perspective_sansitalic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 15px;
   padding-top: 20px;
 }
@@ -563,7 +563,7 @@ footer a:hover {
 }
 .sec-four h2 {
   font-size: 65px;
-  font-family: "KaushanScript-Regular";
+  font-family: "KaushanScript-Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(left, #4C9F42, #BFFF7E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -581,7 +581,7 @@ footer a:hover {
 }
 .sec-four h3 {
   font-size: 20px;
-  font-family: "perspective_sansitalic";
+  font-family: "perspective_sansitalic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 .sec-four h3 a {
   color: inherit;
@@ -632,6 +632,107 @@ footer a:hover {
 .mention .text_mention {
   font-size: 15px;
   padding-left: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .menu_sec {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+
+  .menu1 {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+
+  .menu2 {
+    width: 80%;
+  }
+  .menu2 h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .menu3 {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+  .menu3 h2 {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .menu4 {
+    width: 80%;
+  }
+
+  button {
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+
+  footer {
+    width: auto;
+  }
+  footer p {
+    font-size: 25px;
+  }
+
+  .sec-one {
+    width: auto;
+    height: auto;
+  }
+  .sec-one h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .sec-one .text-one {
+    font-size: 16px;
+  }
+
+  .sec-two {
+    width: auto;
+    height: auto;
+  }
+  .sec-two h3 {
+    text-align: center;
+  }
+
+  .sec-three {
+    width: auto;
+    height: auto;
+  }
+  .sec-three h2 {
+    text-align: center;
+  }
+  .sec-three h3 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .sec-four {
+    width: auto;
+    height: auto;
+  }
+  .sec-four h2 {
+    font-size: 55px;
+  }
+  .sec-four h3 {
+    text-align: center;
+  }
+
+  .mention {
+    width: auto;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
