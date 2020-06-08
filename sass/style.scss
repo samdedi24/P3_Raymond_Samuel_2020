@@ -714,6 +714,7 @@ footer
            }
            h3{
                text-align: center;
+               padding-left: 16px;
            }
     }
 
@@ -765,7 +766,7 @@ footer
         width: auto;
         justify-content: space-around;
             p{
-                font-size: 20px;
+                font-size: 30px;
             }
     }
 
@@ -786,6 +787,10 @@ footer
         height: 1300px;
             h3{
                 text-align: center;
+                font-size: 20px;
+            }
+            .text-one{
+                font-size: 17px;
             }
     }
 
@@ -799,6 +804,9 @@ footer
                 text-align: center;
                 font-size: 22px;
             }
+            .text-one{
+                font-size: 18px;
+            }
     }
 
     .sec-four{
@@ -809,6 +817,9 @@ footer
             }
             h3{
                 text-align: center;
+            }
+            .text-one{
+                font-size: 17px;
             }
     }
 
