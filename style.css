@@ -648,7 +648,17 @@ footer a:hover {
   .menu1 {
     width: 80%;
     height: 1200px;
-    margin-bottom: 25px;
+    margin-bottom: 55px;
+  }
+  .menu1 .fa-music {
+    font-size: 70px;
+    padding-left: 120px;
+  }
+  .menu1 h2 {
+    font-size: 50px;
+  }
+  .menu1 h3 {
+    text-align: center;
   }
 
   .menu2 {
@@ -657,22 +667,34 @@ footer a:hover {
   }
   .menu2 h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 44px;
+  }
+  .menu2 h3 {
+    padding-left: 180px;
   }
 
   .menu3 {
     width: 80%;
     height: 1200px;
-    margin-bottom: 25px;
+    margin-bottom: 55px;
   }
   .menu3 h2 {
     text-align: center;
-    font-size: 45px;
+    font-size: 65px;
+  }
+  .menu3 h3 {
+    padding-left: 160px;
   }
 
   .menu4 {
     width: 80%;
     height: 1200px;
+  }
+  .menu4 h2 {
+    font-size: 60px;
+  }
+  .menu4 h3 {
+    padding-left: 150px;
   }
 
   button {
@@ -680,7 +702,7 @@ footer a:hover {
     height: 80px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 35px;
   }
 
   footer {
@@ -705,7 +727,7 @@ footer a:hover {
 
   .sec-two {
     width: auto;
-    height: auto;
+    height: 1300px;
   }
   .sec-two h3 {
     text-align: center;
@@ -713,7 +735,7 @@ footer a:hover {
 
   .sec-three {
     width: auto;
-    height: auto;
+    height: 1300px;
   }
   .sec-three h2 {
     text-align: center;
@@ -725,7 +747,7 @@ footer a:hover {
 
   .sec-four {
     width: auto;
-    height: auto;
+    height: 1300px;
   }
   .sec-four h2 {
     font-size: 55px;

@@ -704,7 +704,17 @@ footer
     .menu1{
         width: 80%;
         height: 1200px;
-        margin-bottom: 25px;
+        margin-bottom: 55px;
+           .fa-music{
+            font-size: 70px;
+            padding-left: 120px;
+           }
+           h2{
+               font-size: 50px;
+           }
+           h3{
+               text-align: center;
+           }
     }
 
     .menu2{
@@ -712,23 +722,35 @@ footer
         height: 1200px;
             h2{
                text-align: center;
-               font-size: 28px;
+               font-size: 44px;
+            }
+            h3{
+                padding-left: 180px;
             }
     }
 
     .menu3{
         width: 80%;
         height: 1200px;
-        margin-bottom: 25px;
+        margin-bottom: 55px;
             h2{
                 text-align: center;
-                font-size: 45px;
+                font-size: 65px;
+            }
+            h3{
+                padding-left: 160px;
             }
     }
 
     .menu4{
         width: 80%;
         height: 1200px;
+            h2{
+                font-size: 60px;
+            }
+            h3{
+                padding-left: 150px;
+            }
     }
 
     button{
@@ -736,7 +758,7 @@ footer
         height: 80px;
         margin-top: 10px;
         margin-bottom: 10px;
-        font-size: 25px;
+        font-size: 35px;
     }
 
     footer{
@@ -761,7 +783,7 @@ footer
 
     .sec-two{
         width: auto;
-        height: auto;
+        height: 1300px;
             h3{
                 text-align: center;
             }
@@ -769,7 +791,7 @@ footer
 
     .sec-three{
         width: auto;
-        height: auto;
+        height: 1300px;
             h2{
                 text-align: center;
             }
@@ -781,7 +803,7 @@ footer
 
     .sec-four{
         width: auto;
-        height: auto;
+        height: 1300px;
             h2{
                 font-size: 55px;
             }
