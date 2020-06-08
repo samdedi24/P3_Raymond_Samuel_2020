@@ -129,15 +129,13 @@
     }
   }
 
-
-html, body 
-{
-    height: 100%;
+body{
+    height: 1700px;
 }
 
 .page
 {
-    min-height: 100%;
+    height: auto;
 }
 
 header
@@ -159,8 +157,8 @@ header
 	max-width: 1280px;
 	justify-content: space-around;
 	padding-top: 5%;
-	margin-right: 15%;
-	margin-left: 15%;
+	margin-right: auto;
+	margin-left: auto;
     padding-bottom: 5%;
     a
     {
