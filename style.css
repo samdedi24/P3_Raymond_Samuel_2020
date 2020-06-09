@@ -67,23 +67,6 @@
     transform: translate3d(6px, 0, 0);
   }
 }
-@keyframes dotty {
-  0% {
-    content: "";
-  }
-  25% {
-    content: ".";
-  }
-  50% {
-    content: "..";
-  }
-  75% {
-    content: "...";
-  }
-  100% {
-    content: "";
-  }
-}
 @keyframes PtsSuspensions {
   0% {
     opacity: 1;
@@ -321,6 +304,30 @@ footer a:hover {
   font-family: "black_jackregular";
   font-size: 40px;
 }
+.sec-one .headlines {
+  display: flex;
+  align-items: center;
+  width: 87%;
+  justify-content: space-between;
+}
+.sec-one .headlines img {
+  padding-bottom: 10px;
+  max-width: 38%;
+}
+.sec-one .headlines h3 {
+  font-size: 28px;
+  font-family: "perspective_sansitalic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+.sec-one .headlines h3 a {
+  color: inherit;
+  text-decoration: none;
+  background: linear-gradient(to top, black 0%, black 4px, transparent 5px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s;
+}
+.sec-one .headlines h3 a:hover {
+  background-size: 100% 100%;
+}
 .sec-one .text-one {
   display: flex;
   flex-direction: column;
@@ -335,31 +342,6 @@ footer a:hover {
   float: right;
   width: auto;
   font-size: 21px;
-}
-
-.headlines {
-  display: flex;
-  align-items: center;
-  width: 87%;
-  justify-content: space-between;
-}
-.headlines img {
-  padding-bottom: 10px;
-  max-width: 38%;
-}
-.headlines h3 {
-  font-size: 28px;
-  font-family: "perspective_sansitalic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
-}
-.headlines h3 a {
-  color: inherit;
-  text-decoration: none;
-  background: linear-gradient(to top, black 0%, black 4px, transparent 5px) no-repeat;
-  background-size: 0 100%;
-  transition: background-size 0.5s;
-}
-.headlines h3 a:hover {
-  background-size: 100% 100%;
 }
 
 .foothead {
@@ -421,6 +403,7 @@ footer a:hover {
   background: linear-gradient(to top, #C67412 0%, #C67412 2px, transparent 5px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.5s;
+  text-decoration: none;
 }
 .sec-two .headlines h3 a:hover {
   background-size: 100% 100%;
@@ -525,6 +508,7 @@ footer a:hover {
   background: linear-gradient(to top, black 0%, black 2px, transparent 5px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.5s;
+  text-decoration: none;
 }
 .sec-three h3 a:hover {
   background-size: 100% 100%;
@@ -588,6 +572,7 @@ footer a:hover {
   background: linear-gradient(to top, black 0%, black 2px, transparent 4px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.5s;
+  text-decoration: none;
 }
 .sec-four h3 a:hover {
   background-size: 100% 100%;
