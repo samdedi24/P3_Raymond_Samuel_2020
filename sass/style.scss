@@ -141,18 +141,15 @@ header
 
 .menu_sec
 {
-	display: flex;
-	max-width: 1280px;
-	justify-content: space-around;
+    display: inline-flex;
+	width: 100%;
 	padding-top: 5%;
-	margin-right: auto;
-	margin-left: auto;
     padding-bottom: 5%;
     a
     {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: auto;
         justify-content: center;
         align-items: center;
         text-decoration: none;
@@ -160,7 +157,7 @@ header
         transition-property: transform;
         transition-duration: 500ms;
         &:hover {
-            transform: scale(1.15);
+            transform: scale(1.05);
             opacity: 65%;
         }
     }
@@ -171,9 +168,10 @@ header
     background-color: #FCDFDB;
 	display: flex;
 	height: 700px;
-	width: 40%;
+    width: 22%;
+    margin: auto;
 	justify-content: center;
-	align-items: center;
+    align-items: center;
 	border: 1px solid #F1F1F1;
     box-shadow: 0px 0px 5px 5px #EDEDED;
         h2{
@@ -191,6 +189,7 @@ header
                     padding-left: 90px;
                     font-size: 50px;
                     background: -webkit-linear-gradient(bottom left, #F15861, #F78F6A);
+                    background-clip: text;
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
@@ -201,24 +200,26 @@ header
     background-color: #FFF5FE;
 	display: flex;
 	height: 700px;
-	width: 40%;
+    width: 22%;
+    margin: auto;
 	justify-content: center;
-	align-items: center;
+    align-items: center;
+    text-align: center;
 	border: 1px solid #F1F1F1;
     box-shadow: 0px 0px 5px 5px #EDEDED;
         h2{
             font-size: 30px;
             font-family: 'Croissant One Regular', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
             background: -webkit-linear-gradient(bottom right, #905BFD, #CE7D4E);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-            h3{
-                font-size: 65px;
-                padding-left: 90px;
-                font-family: 'nimbus_roman_no9_lbold', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
-                color: #C77412;
-            }
+        h3{
+            font-size: 65px;
+            font-family: 'nimbus_roman_no9_lbold', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
+            color: #C77412;
+        }
 }
 
 .menu3
@@ -226,24 +227,26 @@ header
     background-color: #F9F9F9;
 	display: flex;
 	height: 700px;
-	width: 40%;
+    width: 22%;
+    margin: auto;
 	justify-content: center;
-	align-items: center;
+    align-items: center;
+    text-align: center;
 	border: 1px solid #F1F1F1;
 	box-shadow: 0px 0px 5px 5px #EDEDED;
         h2{
             font-size: 50px;
             font-family: 'AlexBrush-Regular', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
             background: -webkit-linear-gradient(left, #0431DF, #0887FB);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-            h3{
-                font-size: 55px;
-                padding-left: 100px;
-                font-family: 'acmeregular', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
-                color: #0887FB;
-            }
+        h3{
+            font-size: 55px;
+            font-family: 'acmeregular', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
+            color: #0887FB;
+        }
 }
 
 
@@ -252,21 +255,23 @@ header
     background-color: #FDFFFD;
 	display: flex;
 	height: 700px;
-	width: 40%;
+    width: 22%;
+    margin: auto;
 	justify-content: center;
-	align-items: center;
+    align-items: center;
+    text-align: center;
 	border: 1px solid #F1F1F1;
     box-shadow: 0px 0px 5px 5px #EDEDED;
         h2{
             font-size: 45px;
             font-family: 'KaushanScript-Regular', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
             background: -webkit-linear-gradient(left, #4C9F42, #BFFF7E);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
             h3{
                 font-size: 55px;
-                padding-left: 95px;
                 font-family: 'acmeregular', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
                 color: #72BF56;
             }
@@ -351,6 +356,7 @@ footer
         padding-left: 100px;
         font-size: 50px;
         background: -webkit-linear-gradient(bottom left, #F15861, #F78F6A);
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -408,6 +414,7 @@ footer
             padding-left: 10px;
             font-size: 50px;
             background: -webkit-linear-gradient(bottom left, #F15861, #F78F6A);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -438,6 +445,7 @@ footer
             font-size: 30px;
             font-family: 'Croissant One Regular', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
             background: -webkit-linear-gradient(bottom right, #905BFD, #CE7D4E);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -548,6 +556,7 @@ footer
             font-size: 80px;
             font-family: 'AlexBrush-Regular', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
             background: -webkit-linear-gradient(left, #0431DF, #0887FB);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -612,6 +621,7 @@ footer
             font-size: 65px;
             font-family: 'KaushanScript-Regular', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
             background: -webkit-linear-gradient(left, #4C9F42, #BFFF7E);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -684,7 +694,7 @@ footer
             }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     
     .menu_sec{
         display: flex;
@@ -697,8 +707,8 @@ footer
     }
     
     .menu1{
-        width: 80%;
-        height: 1200px;
+        width: 70%;
+        height: 1000px;
         margin-bottom: 55px;
            .fa-music{
             font-size: 70px;
@@ -709,43 +719,34 @@ footer
            }
            h3{
                text-align: center;
-               padding-left: 16px;
            }
     }
 
     .menu2{
-        width: 80%;
-        height: 1200px;
+        width: 70%;
+        height: 1000px;
+        margin-bottom: 55px;
             h2{
                text-align: center;
                font-size: 44px;
             }
-            h3{
-                padding-left: 180px;
-            }
     }
 
     .menu3{
-        width: 80%;
-        height: 1200px;
+        width: 70%;
+        height: 1000px;
         margin-bottom: 55px;
             h2{
                 text-align: center;
                 font-size: 65px;
             }
-            h3{
-                padding-left: 160px;
-            }
     }
 
     .menu4{
-        width: 80%;
-        height: 1200px;
+        width: 70%;
+        height: 1000px;
             h2{
                 font-size: 60px;
-            }
-            h3{
-                padding-left: 150px;
             }
     }
 
@@ -770,7 +771,6 @@ footer
         height: auto;
             h3{
                 font-size: 34px;
-                text-align: center;
             }
             .text-one{
                 font-size: 28px;
