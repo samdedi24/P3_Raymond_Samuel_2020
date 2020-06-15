@@ -128,7 +128,7 @@ header h1 {
   box-shadow: 0px 0px 5px 5px #EDEDED;
 }
 .menu1 h2 {
-  font-size: 35px;
+  font-size: 37px;
   font-family: "black_jackregular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   color: #3C1218;
 }
@@ -641,47 +641,47 @@ footer a:hover {
   }
 
   .menu1 {
-    width: 70%;
+    width: 75%;
     height: 1000px;
     margin-bottom: 55px;
   }
   .menu1 .fa-music {
     font-size: 70px;
-    padding-left: 120px;
+    padding-left: 140px;
   }
   .menu1 h2 {
-    font-size: 50px;
+    font-size: 60px;
   }
   .menu1 h3 {
     text-align: center;
   }
 
   .menu2 {
-    width: 70%;
+    width: 75%;
     height: 1000px;
     margin-bottom: 55px;
   }
   .menu2 h2 {
     text-align: center;
-    font-size: 44px;
+    font-size: 50px;
   }
 
   .menu3 {
-    width: 70%;
+    width: 75%;
     height: 1000px;
     margin-bottom: 55px;
   }
   .menu3 h2 {
     text-align: center;
-    font-size: 65px;
+    font-size: 75px;
   }
 
   .menu4 {
-    width: 70%;
+    width: 75%;
     height: 1000px;
   }
   .menu4 h2 {
-    font-size: 60px;
+    font-size: 70px;
   }
 
   button {
@@ -701,7 +701,7 @@ footer a:hover {
   }
 
   .sec-one {
-    width: auto;
+    width: 90%;
     height: auto;
   }
   .sec-one h3 {
@@ -715,7 +715,7 @@ footer a:hover {
   }
 
   .sec-two {
-    width: auto;
+    width: 90%;
     height: 1700px;
   }
   .sec-two img {
@@ -728,14 +728,14 @@ footer a:hover {
     font-size: 30px;
   }
   .sec-two .text-one {
-    font-size: 27px;
+    font-size: 29px;
   }
   .sec-two .price_end {
     font-size: 32px;
   }
 
   .sec-three {
-    width: auto;
+    width: 90%;
     height: 1650px;
   }
   .sec-three h2 {
@@ -746,14 +746,14 @@ footer a:hover {
     font-size: 34px;
   }
   .sec-three .text-one {
-    font-size: 27px;
+    font-size: 25px;
   }
   .sec-three .price_end {
-    font-size: 34px;
+    font-size: 35px;
   }
 
   .sec-four {
-    width: auto;
+    width: 90%;
     height: 1900px;
   }
   .sec-four h2 {
