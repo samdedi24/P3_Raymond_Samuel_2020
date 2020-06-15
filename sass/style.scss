@@ -397,12 +397,6 @@ footer
                 font-family: 'perspective_sansitalic', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
                 font-size: 15px;
             }
-            .price_end{
-                display: flex;
-	            float: right;
-                width: auto;
-                font-size: 21px;
-            }
 }
 
    
@@ -483,15 +477,7 @@ footer
                     font-family: 'perspective_sansitalic', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Verdana, sans-serif;
                     font-size: 15px;
                     padding-top: 20px;
-                }
-                .price_end{
-                    display: flex;
-	                float: right;
-                    width: auto;
-                    font-size: 21px;
-                }
-                       
-                    
+                }                  
 }
 
 .color1{
@@ -594,12 +580,6 @@ footer
                 font-size: 15px;
                 padding-top: 20px;
             }
-            .price_end{
-                display: flex;
-                float: right;
-                width: auto;
-                font-size: 21px;
-            }
         }
 
 .sec-four
@@ -660,12 +640,13 @@ footer
             font-size: 15px;
             padding-top: 30px;
         }
-        .price_end{
-            display: flex;
-            float: right;
-            width: auto;
-            font-size: 21px;                    
-        }
+}
+
+.price_end{
+    display: flex;
+    float: right;
+    width: auto;
+    font-size: 22px;
 }
 
 .mention

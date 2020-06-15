@@ -343,12 +343,6 @@ footer a:hover {
   font-family: "perspective_sansitalic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 15px;
 }
-.sec-one .price_end {
-  display: flex;
-  float: right;
-  width: auto;
-  font-size: 21px;
-}
 
 .foothead {
   display: flex;
@@ -425,12 +419,6 @@ footer a:hover {
   font-family: "perspective_sansitalic", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 15px;
   padding-top: 20px;
-}
-.sec-two .price_end {
-  display: flex;
-  float: right;
-  width: auto;
-  font-size: 21px;
 }
 
 .color1 {
@@ -532,12 +520,6 @@ footer a:hover {
   font-size: 15px;
   padding-top: 20px;
 }
-.sec-three .price_end {
-  display: flex;
-  float: right;
-  width: auto;
-  font-size: 21px;
-}
 
 .sec-four {
   background-color: #FDFFFD;
@@ -597,11 +579,12 @@ footer a:hover {
   font-size: 15px;
   padding-top: 30px;
 }
-.sec-four .price_end {
+
+.price_end {
   display: flex;
   float: right;
   width: auto;
-  font-size: 21px;
+  font-size: 22px;
 }
 
 .mention {
