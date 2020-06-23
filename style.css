@@ -142,7 +142,6 @@ header h1 {
   padding-left: 90px;
   font-size: 50px;
   background: -webkit-linear-gradient(bottom left, #F15861, #F78F6A);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -163,7 +162,6 @@ header h1 {
   font-size: 30px;
   font-family: "Croissant One Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(bottom right, #905BFD, #CE7D4E);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -189,7 +187,6 @@ header h1 {
   font-size: 50px;
   font-family: "AlexBrush-Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(left, #0431DF, #0887FB);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -215,7 +212,6 @@ header h1 {
   font-size: 45px;
   font-family: "KaushanScript-Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(left, #4C9F42, #BFFF7E);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -302,7 +298,6 @@ footer a:hover {
   padding-left: 100px;
   font-size: 50px;
   background: -webkit-linear-gradient(bottom left, #F15861, #F78F6A);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -352,7 +347,6 @@ footer a:hover {
   padding-left: 10px;
   font-size: 50px;
   background: -webkit-linear-gradient(bottom left, #F15861, #F78F6A);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -381,7 +375,6 @@ footer a:hover {
   font-size: 30px;
   font-family: "Croissant One Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(bottom right, #905BFD, #CE7D4E);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -482,7 +475,6 @@ footer a:hover {
   font-size: 80px;
   font-family: "AlexBrush-Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(left, #0431DF, #0887FB);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -540,7 +532,6 @@ footer a:hover {
   font-size: 65px;
   font-family: "KaushanScript-Regular", Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Segoe UI", Tahoma, Verdana, sans-serif;
   background: -webkit-linear-gradient(left, #4C9F42, #BFFF7E);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
